@@ -1,0 +1,305 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('fonts/Calibri.eot');
+    src: url('fonts/Calibri.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Calibri.woff') format('woff'),
+        url('fonts/Calibri.ttf') format('truetype'),
+        url('fonts/Calibri.svg#Calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.conteudo-texto img{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.conteudo-texto .bg1 {
+    margin-left: 59px;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.conteudo-texto .bg2 {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+
+.conteudo-texto .bg3 {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+}
+
+
+body {
+    background-color: black;
+    margin: 15px;
+    padding: 0;
+}
+
+ul {
+    list-style: none;     
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    background-color: black;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    display: flex;
+    height: 100px;
+    background-color: black;
+    padding: 0px 5px;
+    z-index: 99;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+}
+
+nav ul li {
+    font-family: Calibre;
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.active {
+    color: white;
+    margin-left: 1150px;
+    font-family: Calibre;
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+.conteudo-texto p:nth-child(1) {
+    font-family: Calibri;
+    color: white;
+    font-size: 22px;
+}
+
+.conteudo-texto p:nth-child(2) {
+    font-family: Calibri;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 70px;
+}
+
+.conteudo-texto p:nth-child(3) {
+    font-family: Calibri, sans-serif;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudo-texto {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.conteudo-texto{
+    position: absolute;
+    left: 20%;
+    top: 48%;
+    transform: translate(-13%, -42%);
+}
+
+button {
+    border: 2px solid white;
+    color: #373636;
+}
+
+.btn2 {
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.imgbg {
+    height: 750px;
+    position: absolute;
+    bottom: 95px;
+    left: 80%;
+    transform: translateX(-70%);
+}
+
+.conteudo-sobre {
+    height: 330px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto-sobre {
+    margin-top: 70px;
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.conteudo-sobre p:nth-child(1) {
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.conteudo-sobre p:nth-child(2) {
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.projetos {
+    border: 1px solid black;
+    height: 600px;
+    background-color: black;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.projetos-textos p:nth-child(1) {
+    font-family: Calibri;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    line-height: 0;
+}
+
+.projetos-textos p:nth-child(2) {
+    font-family: Calibri;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    line-height: 5;
+}
+
+.projetos-textos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.conteudo-box button {
+    font-weight: bold;
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 350px;
+    height: 400px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 20px;
+    min-width: 450px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.formulario {
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+.formulario div label {
+    margin: 5px;
+}
+
+.contato-texto {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    font-size: 15px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p:nth-child(1) {
+    padding: 8px;
+    color: white;
+}
+
+.footer a {
+    color: rgba(42, 42, 221, 0.342);
+}
